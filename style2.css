@@ -6,9 +6,36 @@
     font-family: "Karma", sans-serif;
 }
 
+nav {
+    display: flex;
+    margin-top: 0px;
+    padding: 20px;
+    top: 0;
+    margin-bottom: 100px;
+    position: fixed;
+    background: #fff;
+    width: 80%;
+}
+
+nav div {
+    width: 33.33%;
+}
+
+nav i {
+    font-size: 26px !important;
+}
+
+nav .brandName {
+    text-align: center;
+}
+
+nav .mail {
+    text-align: right;
+}
+
 .content{
-    max-width: 1200px;
-    margin-top: 100px;
+    max-width: 80%;
+    /* margin-top: 100px; */
     padding: 8px 16px !important;
     margin-left: auto;
     margin-right: auto;
@@ -146,6 +173,18 @@ img{
     border-bottom: 1px solid #ddd;
 }
 
+/* update by mark */
+
+.blogs {
+    padding: 10px;
+}
+
+.blogs .blog-wrapper {
+    display: flex;
+}
+
+/* end of update my mark */
+
 .footer3 p {
     font: 15px;
     margin: 15px 0;
@@ -164,17 +203,4 @@ img{
 .black {
         color: #fff !important;
     background-color: #000 !important;
-}
-
-@media (max-width: 500px) {
-     .content {
-        flex-direction: column;
-        /* width: 100%; */
-    }
-
-    /* .portfolio .upper {
-        width: 100%;
-        margin-left: 0px;
-    } */
-
 }
